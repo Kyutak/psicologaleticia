@@ -14,7 +14,7 @@ import {
   X,
 } from 'lucide-react';
 
-const googleReviewUrl = '#';
+const googleReviewUrl = 'https://g.page/r/Cfvy9_fiCuboEAI/review';
 const whatsappUrl = 'https://wa.me/5511939007750?text=Olá%2C%20Letícia.%20Gostaria%20de%20saber%20mais%20sobre%20a%20terapia.';
 const instagramUrl = 'https://www.instagram.com/leticiafonseca.psic/';
 

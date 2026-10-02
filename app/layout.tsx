@@ -16,6 +16,14 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+
+  metadataBase: new URL('https://psicologaleticiafonseca.com.br'),
+
+  alternates: {
+    canonical: '/',
+  },
+
+  
   title: {
     default: 'Letícia Fonseca | Psicóloga',
     template: '%s | Letícia Fonseca',
@@ -72,12 +80,21 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
+    url: 'https://psicologaleticiafonseca.com.br',
     title: 'Letícia Fonseca | Psicóloga',
     description:
       'Psicoterapia online para mulheres que vivem com ansiedade, autocobrança, culpa e a sensação de nunca serem suficientes.',
-
     siteName: 'Letícia Fonseca Psicóloga',
+    images: [
+      {
+        url: '/assets/imagem1.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'Letícia Fonseca — Psicóloga',
+      },
+    ],
   },
+
 
   twitter: {
     card: 'summary_large_image',
