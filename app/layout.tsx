@@ -87,7 +87,7 @@ export const metadata: Metadata = {
     siteName: 'Letícia Fonseca Psicóloga',
     images: [
       {
-        url: '/assets/imagem1.jpeg',
+        url: '/assets/.jpeg',
         width: 1200,
         height: 630,
         alt: 'Letícia Fonseca — Psicóloga',
